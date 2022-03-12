@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
+import classes from './AboutMe.module.css';
 
-const AboutMe:FC = () => <div>About me</div>;
+const AboutMe:FC = () => <div className={classes.wrapper}>About me</div>;
 
 export default AboutMe;
