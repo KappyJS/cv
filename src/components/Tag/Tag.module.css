@@ -1,0 +1,9 @@
+.wrapper {
+  background-color: #7510f729;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+  display: inline-block;
+}

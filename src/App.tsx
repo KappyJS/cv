@@ -2,15 +2,16 @@ import React from 'react';
 import {
   AboutMe, Avatar, Contacts, Experience, Preferences, Skills,
 } from './blocks';
+import classes from './App.module.css';
 
 const App = () => (
-  <div>
-    <AboutMe />
+  <div className={classes.wrapper}>
     <Avatar />
-    <Contacts />
+    <AboutMe />
+    <Skills />
     <Experience />
     <Preferences />
-    <Skills />
+    <Contacts />
   </div>
 );
 

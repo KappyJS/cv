@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 48px 48px 56px;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.tags {
+  margin-top: 32px;
+}
+
+.tags span:nth-child(n) {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}

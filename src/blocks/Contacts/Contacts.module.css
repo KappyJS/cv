@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 88px 144px;
+  background-color: var(--color-primary);
+  border-radius: 50px;
+  color: white;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.social {
+  margin-top: 88px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 118px;
+}
+
+.socialItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
