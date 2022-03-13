@@ -15,3 +15,9 @@
   line-height: 32px;
   margin-top: 16px;
 }
+
+.image {
+  margin-top: 64px;
+  max-width: 450px;
+  max-height: 530px;
+}
