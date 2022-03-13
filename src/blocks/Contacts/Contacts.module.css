@@ -20,7 +20,13 @@
 }
 
 .socialItem {
-  display: flex;
+  display: inline-grid;
+  gap: 24px;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  line-height: 24px;
+  grid-template-columns: max-content auto;
 }

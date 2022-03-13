@@ -4,3 +4,4 @@ export * from './Contacts';
 export * from './Experience';
 export * from './Preferences';
 export * from './Skills';
+export * from './Header';

@@ -2,3 +2,22 @@
   display: grid;
   gap: 48px;
 }
+
+.wrapper::after {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: -80px;
+  border-radius: 50%;
+  content: "";
+  background-color: white;
+}
+
+.wrapper::before {
+  position: absolute;
+  left: -70px;
+  border-right: 2px solid rgb(211 179 252 / 49%);
+  content: "";
+  height: calc(100% + 82px);
+  width: 1px;
+}
