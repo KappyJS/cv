@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 120px 150px;
+  background-color: var(--color-primary);
+  color: white;
+  display: grid;
+  gap: 80px;
+  border-radius: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+}

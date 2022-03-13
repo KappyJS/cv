@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  gap: 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 180px;
+}

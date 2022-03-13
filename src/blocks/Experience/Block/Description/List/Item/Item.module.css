@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 14px;
+  align-items: center;
+}
+
+.item {
+  font-size: 18px;
+  line-height: 24px;
+}
