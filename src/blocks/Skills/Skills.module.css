@@ -1,6 +1,7 @@
 .wrapper {
   display: grid;
   gap: 88px;
+  margin-top: 120px;
 }
 
 .cards {
@@ -8,6 +9,7 @@
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
   gap: 32px;
+  padding: 0 152px;
 }
 
 .title {

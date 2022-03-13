@@ -1,6 +1,8 @@
 .wrapper {
   display: grid;
   gap: 88px;
+  margin-top: 120px;
+  padding: 0 152px;
 }
 
 .cards {

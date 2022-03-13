@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(3, auto);
   justify-content: space-between;
-  padding-top: 32px;
+  padding: 32px 152px 0;
 }

@@ -5,10 +5,12 @@
   display: grid;
   gap: 80px;
   border-radius: 50px;
+  margin-top: 120px;
 }
 
 .title {
   text-align: center;
   font-size: 40px;
   line-height: 48px;
+  letter-spacing: 0.01em;
 }
