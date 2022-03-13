@@ -3,9 +3,10 @@ import {
   AboutMe, Avatar, Contacts, Experience, Preferences, Skills, Header,
 } from './blocks';
 import classes from './App.module.css';
+import { ASSETS } from './assets';
 
 const App = () => (
-  <div className={classes.wrapper}>
+  <div className={classes.wrapper} style={{ backgroundImage: `url(${ASSETS.BACKGROUND_URL})`, backgroundSize: 'contain' }}>
     <Header />
     <Avatar />
     <AboutMe />
