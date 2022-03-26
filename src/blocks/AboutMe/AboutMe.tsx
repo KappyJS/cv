@@ -23,7 +23,7 @@ const AboutMe:FC = () => (
       variant="b1"
       className={classes.subDescription}
     />
-    <button type="button" className={classes.button}>
+    <a href="/pdfs/cv(ru).pdf" download="KapitanovND(CV).pdf" className={classes.link}>
       <Typography
         value={{
           [Lang.ru]: 'Скачать',
@@ -32,7 +32,7 @@ const AboutMe:FC = () => (
         }}
         variant="button"
       />
-    </button>
+    </a>
   </div>
 );
 

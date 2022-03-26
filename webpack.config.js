@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 const { DEPLOY_PATH } = require('./scripts/constants');
 
 module.exports = {
@@ -15,6 +16,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: 'pdfs', to: 'pdfs' },
+      ],
     }),
   ],
   devServer: {
