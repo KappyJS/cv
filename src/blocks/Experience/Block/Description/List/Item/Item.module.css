@@ -6,10 +6,10 @@
 }
 
 .item {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
 }
 
 .icon {
-  padding-top: 6px;
+  padding: 6px  0 0 6px;
 }

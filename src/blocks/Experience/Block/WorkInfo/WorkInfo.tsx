@@ -15,14 +15,10 @@ const WorkInfo:FC<IProps> = (props) => {
   return (
     <div className={classes.wrapper}>
       <span className={classes.title}>
-        {companyName}
-        -
-        {grade}
+        {[companyName, grade].join(' - ')}
       </span>
       <span className={classes.subTitle}>
-        {startDate}
-        -
-        {endDate}
+        {[startDate, endDate].join(' - ')}
       </span>
     </div>
   );

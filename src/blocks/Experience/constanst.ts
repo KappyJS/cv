@@ -5,7 +5,7 @@ export const EXPERIENCE_DETAILS:IExperience[] = [
     company: 'Sberbank',
     grade: 'Senior Front-end',
     startDate: 'Апрель 2021',
-    endDate: 'Настоящее время',
+    endDate: 'По настоящее время',
     duties: ['Ответственность за релизы команды',
       'Обеспечение единых стандартов разработки',
       'Автоматизация CI/CD процессов',

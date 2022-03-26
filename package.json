@@ -5,7 +5,7 @@
   "repository": "github:KappyJS/cv",
   "scripts": {
     "start": "webpack serve",
-    "build" : "webpack",
+    "build": "webpack",
     "deploy": "node ./scripts/deploy.js",
     "lint": "eslint && stylelint src/**/*.css",
     "lint:fix": "eslint --fix && stylelint src/**/*.css --fix"
