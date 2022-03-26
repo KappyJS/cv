@@ -23,7 +23,7 @@ const AboutMe:FC = () => (
       variant="b1"
       className={classes.subDescription}
     />
-    <a href="/pdfs/cv(ru).pdf" download="KapitanovND(CV).pdf" className={classes.link}>
+    <a href="./pdfs/cv(ru).pdf" download="KapitanovND(CV).pdf" className={classes.link}>
       <Typography
         value={{
           [Lang.ru]: 'Скачать',
