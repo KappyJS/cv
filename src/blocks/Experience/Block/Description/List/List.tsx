@@ -1,18 +1,20 @@
 import React, { FC } from 'react';
 import classes from './List.module.css';
 import { Item } from './Item';
+import { TLangRecord } from '../../../../../models';
+import { Typography } from '../../../../../components';
 
 interface IProps{
-    title:string;
-    items:string[]
+    title:TLangRecord;
+    items:TLangRecord[]
 }
 
 const List:FC<IProps> = (props) => {
   const { title, items } = props;
   return (
     <div className={classes.wrapper}>
-      <span className={classes.title}>{title}</span>
-      <div className={classes.list}>{items.map((item) => <Item key={item}>{item}</Item>)}</div>
+      <Typography value={title} variant="subtitle2" />
+      <div className={classes.list}>{items.map((item) => <Item key={item.en} value={item} />)}</div>
     </div>
   );
 };

@@ -1,10 +1,11 @@
 import React, { FC } from 'react';
-import { Card as UiCard } from '../../../components';
+import { Card as UiCard, Typography } from '../../../components';
 import classes from './Card.module.css';
+import { TLangRecord } from '../../../models';
 
 interface IProps {
-    title:string;
-    description:string;
+    title:TLangRecord;
+    description:TLangRecord;
     imgSrc:string;
 }
 
@@ -14,8 +15,8 @@ const Card :FC<IProps> = (props) => {
   return (
     <UiCard className={classes.wrapper}>
       <img src={imgSrc} className={classes.img} alt="src" />
-      <span className={classes.title}>{title}</span>
-      <span className={classes.description}>{description}</span>
+      <Typography className={classes.title} value={title} variant="subtitle2" />
+      <Typography className={classes.description} value={description} variant="b2" />
     </UiCard>
   );
 };

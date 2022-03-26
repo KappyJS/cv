@@ -4,16 +4,4 @@
   gap: 8px;
 }
 
-.item {
-  display: inline-flex;
-  padding: 12px;
-  font-size: 14px;
-  line-height: 16px;
-  align-items: center;
-}
 
-.itemActive {
-  composes: item;
-  background: #d6d5ff;
-  border-radius: 50%;
-}

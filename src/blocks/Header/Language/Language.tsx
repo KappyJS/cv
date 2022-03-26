@@ -1,10 +1,11 @@
 import React from 'react';
 import classes from './Language.module.css';
+import Item from './Item';
+import { Lang } from '../../../models';
 
 const Language = () => (
   <div className={classes.wrapper}>
-    <span className={classes.itemActive}>RU</span>
-    <span className={classes.item}>EN</span>
+    {Object.values(Lang).map((value) => <Item key={value} value={value} />)}
   </div>
 );
 

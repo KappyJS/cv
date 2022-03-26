@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { DEPLOY_PATH } = require('./scripts/constants');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },

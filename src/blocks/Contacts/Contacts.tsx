@@ -1,17 +1,17 @@
 import React, { FC } from 'react';
 import classes from './Contacts.module.css';
-import { Link } from '../../components';
+import { Link, Typography } from '../../components';
 import { SocialLinks } from '../../constants';
 import { GithubWhiteIcon, MailWhiteIcon, TelegramWhiteIcon } from './assets';
+import { Lang } from '../../models';
 
 const Contacts:FC = () => (
   <div className={classes.wrapper}>
-
-    <div className={classes.title}>Контакты</div>
+    <Typography value={{ [Lang.ru]: 'Контакты', [Lang.en]: 'Contacts' }} variant="h2" />
     <div className={classes.social}>
       <Link className={classes.socialItem} href={SocialLinks.Github}>
         <img src={GithubWhiteIcon} alt="Github" />
-        <span>{SocialLinks.Github}</span>
+        <span>KappyJS</span>
       </Link>
       <Link className={classes.socialItem} href={SocialLinks.Telegram}>
         <img src={MailWhiteIcon} alt="Telegram" />

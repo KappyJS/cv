@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
-import { Card as UICard, Tag } from '../../../components';
+import { Card as UICard, Tag, Typography } from '../../../components';
 import classes from './Card.module.css';
+import { TLangRecord } from '../../../models';
 
 interface IProps{
-    title:string;
+    title:TLangRecord;
     items: string[]
 }
 
@@ -12,8 +13,8 @@ const Card:FC<IProps> = (props) => {
 
   return (
     <UICard className={classes.wrapper}>
-      <span className={classes.title}>{title}</span>
-      <div className={classes.tags}>{items.map((item) => <Tag>{item}</Tag>)}</div>
+      <Typography value={title} variant="subtitle2" />
+      <div className={classes.tags}>{items.map((item) => <Tag key={item}>{item}</Tag>)}</div>
     </UICard>
   );
 };
